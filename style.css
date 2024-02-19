@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 80vh;
+    width: 80vw;
+    display: grid;
+    margin: 10vh auto;
+}
+
+.box{
+    height: 15vh;
+    width: 15vw;
+    background-color: #bababa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-box{
+    background-color: #8df7d7;
+}
+
+.box-1{
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+.box-2{
+    grid-row-start: 1;
+    grid-column-start: 2;
+}
+.box-3{
+    grid-row-start: 1;
+    grid-column-start: 3;
+}
+.box-4{
+    grid-row-start: 2;
+    grid-column-start: 1;
+}
+.box-5{
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+.box-6{
+    grid-row-start: 2;
+    grid-column-start: 3;
+}
+.box-7{
+    grid-row-start: 3;
+    grid-column-start: 1;
+}
+.box-8{
+    grid-row-start: 3;
+    grid-column-start: 2;
+}
+.box-9{
+    grid-row-start: 3;
+    grid-column-start: 3;
+}
+.box-10{
+    grid-row-start: 4;
+    grid-column-start: 1;
+}
+.box-11{
+    grid-row-start: 4;
+    grid-column-start: 2;
+}
+.box-12{
+    grid-row-start: 4;
+    grid-column-start: 3;
+}
+
+/******************************/
+.new-box.box-1{
+    /* transform: scaleX(1); */
+    transition: transform 0.5s ease;
+}
+.new-box.box-1:hover {
+    transform: scaleX(2);
+  }
+  .new-box.box-2{
+    /* transform: scaleY(1); */
+    transition: transform 0.5s ease;
+}
+.new-box.box-2:hover {
+    transform: scaleY(2);
+  }
+  .new-box.box-3{
+    /* transform: scale(1,1); */
+    transition: transform 0.5s ease;
+}
+.new-box.box-3:hover {
+    transform: scale(2,2);
+  }
+.new-box.box-4{
+    transition: transform 0.5s ease;
+
+}
+.new-box.box-4:hover{
+    transform: translateX(40px);
+}
+.new-box.box-5{
+    transition: transform 0.5s ease;
+}
+.new-box.box-5:hover{
+    transform:translateY(40px)
+}
+.new-box.box-6{
+    transition: transform 0.5s ease;
+}
+.new-box.box-6:hover{
+    transform: translate(20px, 20px);
+}
+.new-box.box-7{
+    transition: transform 0.5s ease;
+}
+.new-box.box-7:hover{
+    transform: matrix(1, -1, 0, 1, 0, 0);
+}
+.new-box.box-8{
+    transition: transform 1s ease;
+}
+.new-box.box-8:hover{
+    transform: rotate(360deg);
+}
+.new-box.box-9{
+    transition: transform 0.5s ease;
+}
+.new-box.box-9:hover{
+    transform: skew(30deg,20deg);
+}
+.new-box.box-10{
+    transition: transform 0.5s ease;
+}
+.new-box.box-10:hover{
+    transform: skewX(30deg);
+}
+.new-box.box-11{
+    transition: transform 0.5s ease;
+}
+.new-box.box-11:hover{
+    transform: skewY(30deg);
+}
+.new-box.box-12{
+    transition: transform 0.5s ease;
+}
+.new-box.box-12:hover{
+    transform: matrix3d(0.8535533905932737, 0.4999999999999999, 0.14644660940672619, 0, -0.4999999999999999, 0.7071067811865476, 0.4999999999999999, 0, 0.14644660940672619, -0.4999999999999999, 0.8535533905932737, 0, 22.62994231491119, -20.3223304703363, 101.3700576850888, 1)
+}
